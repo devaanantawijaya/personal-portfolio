@@ -12,16 +12,16 @@ import p3 from "../../assets/web-resto.jpg";
 
 export const MySkills = () => {
   const mySkills = [
-    { id: 1, logoSkill: <FaHtml5 />, nameSkill: "HTML", level: "75%" },
-    { id: 2, logoSkill: <FaCss3Alt />, nameSkill: "CSS", level: "70%" },
+    { id: 1, logoSkill: <FaHtml5 />, nameSkill: "HTML", level: "90%" },
+    { id: 2, logoSkill: <FaCss3Alt />, nameSkill: "CSS", level: "100%" },
     {
       id: 3,
       logoSkill: <IoLogoJavascript />,
       nameSkill: "JAVASCRIPT",
-      level: "80%",
+      level: "90%",
     },
-    { id: 4, logoSkill: <FaReact />, nameSkill: "REACT JS", level: "60%" },
-    { id: 5, logoSkill: <RiNextjsFill />, nameSkill: "NEXT JS", level: "40%" },
+    { id: 4, logoSkill: <FaReact />, nameSkill: "REACT JS", level: "85%" },
+    { id: 5, logoSkill: <RiNextjsFill />, nameSkill: "NEXT JS", level: "90%" },
   ];
   return mySkills;
 };
